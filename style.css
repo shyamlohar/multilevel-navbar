@@ -1,0 +1,94 @@
+nav .links .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+nav, nav .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  height: 60px;
+}
+
+nav .logo {
+  flex-basis: 50%;
+  margin-left: 20px;
+  color: white;
+}
+
+nav .links {
+  flex-basis: 40%;
+  height: 100%;
+  padding: 0 10px;
+}
+
+nav .links .link {
+  color: white;
+  flex-basis: 20%;
+}
+
+nav .links .link:hover {
+  background-color: #141414;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #141414;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown-content div {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+
+.dropdown-content div:hover {
+  background-color: #333;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div .content2 .dropdown2 {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  width: 100%;
+  background-color: #141414;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+div .content2 .dropdown2:hover {
+  background-color: #333;
+}
+
+.content2:hover .dropdown2 {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
